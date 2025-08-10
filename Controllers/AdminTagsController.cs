@@ -78,7 +78,7 @@ namespace Bloggie.Web.Controllers
 
                 return RedirectToAction("List");
             }
-            return RedirectToAction("Edit", new { id = editTagRequest.Id });
+             return RedirectToAction("Edit", new { id = editTagRequest.Id });
         
         }
                 
