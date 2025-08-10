@@ -11,7 +11,7 @@ namespace Bloggie.Web.Controllers
 
         public AdminTagsController(BloggieDbContext bloggieDbContext)
         {
-            this.bloggie DbContext = bloggieDbContext;
+            this.bloggieDbContext = bloggieDbContext;
         }
         [HttpGet]
         public IActionResult Add()
